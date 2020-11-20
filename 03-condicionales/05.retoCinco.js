@@ -9,12 +9,14 @@ const parrafo = document.querySelector('p')
         titulo.textContent = "AVISO" 
         parrafo.textContent = "Tenga cuidado"
 
-    }else if(!notificacion.classList.contains('error')){
+    } 
+    if(!notificacion.classList.contains('error')){
         notificacion.classList.add('error')
         titulo.textContent = "ERROR" 
         parrafo.textContent = "Ha surgido un error"
 
-    }else if(!notificacion.classList.contains('success')){    
+    }
+     if(!notificacion.classList.contains('success')){    
         notificacion.classList.add('success')
         titulo.textContent = "CORRECTO" 
         parrafo.textContent = "Los datos son correctos"
