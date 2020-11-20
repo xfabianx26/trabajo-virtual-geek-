@@ -12,6 +12,6 @@ const parrafo = document.querySelector('p')
 // const valor = (!notificacion.classList.add('error')) ? (titulo.textContent = "ERROR", parrafo.textContent = "Ha surgido un error") : 'La clase no existe' 
 
 
-const valor = (!notificacion.classList.add('success')) ? (       titulo.textContent = "CORRECTO", parrafo.textContent = "Los datos son correctos") : 'La clase no existe' 
+const valor = (!notificacion.classList.add('success')) ? (titulo.textContent = "CORRECTO", parrafo.textContent = "Los datos son correctos") : 'La clase no existe' 
 
 
